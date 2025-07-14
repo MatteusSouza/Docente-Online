@@ -1,8 +1,14 @@
 # Docente-Online
 
 Projeto FINAL da disciplina **Desenvolvimento de Sistemas Web - 2025.1**  
-Hospedado em: [https://andluis35.github.io/Docente-Online/](https://andluis35.github.io/Docente-Online/)
 
+
+## Como rodar o projeto
+
+1. É necessário ter o [node](https://nodejs.org/pt/download/current) instalado
+2. Acesse o diretório server: `cd server`
+3. Instale as dependencias: `npm install`
+4. Execute: `npm run dev`
 ---
 
 ## TODOs do Projeto
