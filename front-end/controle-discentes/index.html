@@ -1,13 +1,16 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title id="troca-contexto-titulo">Registro de notas e faltas</title>
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
-              rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
-              crossorigin="anonymous">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+            crossorigin="anonymous"
+        />
 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
@@ -17,6 +20,7 @@
                 href="../assets/svg/logo.svg"
         />
         <link rel="stylesheet" href="./styles.css">
+        <link href="../pagina-principal/css/sidemenu.css" rel="stylesheet" />
         <link rel="stylesheet" href="../pagina-principal/css/list.css">
         <link rel="stylesheet" href="../pagina-principal/css/footer.css">
         <link rel="stylesheet" href="../pagina-principal/css/header.css">
@@ -42,17 +46,18 @@
                 <h1 id="troca-contexto-cabecalho"></h1>
                 <div id="pagina">
                     <div id="esquerda">
-                        <input id="busca" type="text" placeholder="Buscar Disciplinas" autocomplete="off">
+                        <input
+                            id="busca"
+                            type="text"
+                            placeholder="Buscar Disciplinas"
+                            autocomplete="off"
+                        />
 
-                        <div id="sugestoes">
-                        </div>
+                        <div id="sugestoes"></div>
 
                         <div id="resultadoBusca">
-                            <div id="disciplinas">
-
-                            </div>
+                            <div id="disciplinas"></div>
                         </div>
-
                     </div>
 
                     <div id="direita">
@@ -76,9 +81,7 @@
                                     </tr>
                                 </thead>
 
-                                <tbody id="alunosTabela">
-
-                                </tbody>
+                                <tbody id="alunosTabela"></tbody>
                             </table>
                         </div>
 
@@ -86,19 +89,7 @@
                             <button type="button" class="btn btn-success visao-registros">Salvar Notas</button>
                             <button type="button" class="btn btn-warning visao-registros">Enviar para Sistema Acadêmico de Graduação (SAG)</button>
                         </div>
-
                     </div>
-
-                </div>
-
-                <div>
-                    <button class="btn btn-primary visao-discentes" id="troca-contexto-btn">
-                        Registro de notas e faltas
-                    </button>
-                </div>
-
-                <div class="mb-3">
-
                 </div>
 
 
@@ -113,7 +104,7 @@
             </section>
         </main>
 
-        <footer class="w-100" id ="footer">
+        <footer class="w-100" id="footer">
             <!--Conteúdo injetado por script.-->
         </footer>
 
@@ -121,7 +112,8 @@
 
         <script type="module" src="formulario.js"></script>
         
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        <script
+                src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
                 integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
                 crossorigin="anonymous">
         </script>

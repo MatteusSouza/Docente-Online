@@ -22,6 +22,7 @@
     <link href="css/base.css" rel="stylesheet" />
     <link href="css/header.css" rel="stylesheet" />
     <link href="css/navbar.css" rel="stylesheet" />
+    <link href="css/sidemenu.css" rel="stylesheet" />
     <link href="css/list.css" rel="stylesheet" />
     <link href="css/footer.css" rel="stylesheet" />
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
@@ -39,7 +40,9 @@
         $("#search").load("html/subjects/search.inc");
       });
       $(function () {
-        $("#timetable").load("html/subjects/timetable.inc");
+        $("#timetable").load("html/subjects/timetable.inc", function () {
+        preencherTabelaHorarios();
+        });
       });
       $(function () {
         $("#footer").load("html/footer.inc");
@@ -59,7 +62,9 @@
 
     <div id="timetable"></div>
     <div class="container">
-      <button type="button" class="btn btn-danger mt-5 btn-voltar"> Voltar</button>
+      <button type="button" class="btn btn-danger mt-5 btn-voltar">
+        Voltar
+      </button>
     </div>
     <div id="footer"></div>
 
@@ -69,6 +74,6 @@
       crossorigin="anonymous"
     ></script>
     <script type="module" src="../script/navegacaoLayoutBase.js"></script>
-    <script type="module" src="js/disciplinas.js"></script>
+    <script src="js/gradeDeHorarios.js"></script>
   </body>
 </html>

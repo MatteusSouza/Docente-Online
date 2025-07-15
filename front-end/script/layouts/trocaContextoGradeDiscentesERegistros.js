@@ -13,6 +13,7 @@ $(function() {
 
     function exibirVersaoDiscentes() {
         isDiscentesAtivo = true;
+        $('.visao-email-registros').show();
         $('.visao-registros').hide();
         $('.visao-discentes').show();
         $('#troca-contexto-titulo').text('Discentes com matrícula ativa');
@@ -22,22 +23,13 @@ $(function() {
 
     function exibirVersaoRegistros() {
         isDiscentesAtivo = false;
+         $('.visao-email-registros').hide();
         $('.visao-registros').show();
         $('.visao-discentes').hide();
         $('#troca-contexto-titulo').text('Registro de notas e faltas');
         $('#troca-contexto-cabecalho').text('Registro de notas e faltas');
         console.log('Contexto: Registro de notas e faltas');
     }
-
-
-    $('#troca-contexto-btn').on('click', function(event) {
-        event.preventDefault();
-
-        if (isDiscentesAtivo) {
-            exibirVersaoRegistros();
-        }
-    });
-
 
     $(document).on('tabelaAtualizada', function(event) {
         if (isDiscentesAtivo) {
