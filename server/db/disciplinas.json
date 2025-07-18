@@ -1,0 +1,56 @@
+[
+    {
+        "codigo": "IME04-10842",
+        "nome": "Computação Gráfica",
+        "cargaHoraria": 60,
+        "link": "https://www.ementario.uerj.br/ementa.php?cdg_disciplina=10842"
+    },
+    {
+        "codigo": "IME04-10843",
+        "nome": "Inteligência Artificial",
+        "cargaHoraria": 60,
+        "link": "https://www.ementario.uerj.br/ementa.php?cdg_disciplina=10843"
+    },
+    {
+        "codigo": "IME04-11312",
+        "nome": "Otimização em Grafos",
+        "cargaHoraria": 45,
+        "link": "https://www.ementario.uerj.br/ementa.php?cdg_disciplina=11312"
+    },
+    {
+        "codigo": "IME04-11311",
+        "nome": "Algoritmos em Grafos",
+        "cargaHoraria": 45,
+        "link": "https://www.ementario.uerj.br/ementa.php?cdg_disciplina=11311"
+    },
+    {
+        "codigo": "IME04-10833",
+        "nome": "Análise e Projeto de Sistemas",
+        "cargaHoraria": 60,
+        "link": "https://www.ementario.uerj.br/ementa.php?cdg_disciplina=10833"
+    },
+    {
+        "codigo": "IME04-10836",
+        "nome": "Arquitetura de Computadores II",
+        "cargaHoraria": 60,
+        "link": "https://www.ementario.uerj.br/ementa.php?cdg_disciplina=10836"
+    },
+    {
+        "codigo": "IME04-10854",
+        "nome": "Aspectos Práticos em Ciência da Computação I",
+        "cargaHoraria": 60,
+        "link": "https://www.ementario.uerj.br/ementa.php?cdg_disciplina=10854"
+    },
+    {
+        "codigo": "IME04-10832",
+        "nome": "Banco de Dados I",
+        "cargaHoraria": 60,
+        "link": "https://www.ementario.uerj.br/ementa.php?cdg_disciplina=10832"
+    },
+    {
+        "codigo": "IME04-10835",
+        "nome": "Sistemas Operacionais I",
+        "cargaHoraria": 60,
+        "link": "https://www.ementario.uerj.br/ementa.php?cdg_disciplina=10835"
+    }
+]
